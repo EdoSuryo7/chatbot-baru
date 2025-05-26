@@ -252,7 +252,7 @@ OPENROUTER_API_KEY = "sk-or-v1-21bd5c68e7fb7045fb5eef3dc620ceaa542f72ca1fb45e859
 MODEL = "deepseek/deepseek-chat-v3-0324"
 HEADERS = {
     "Authorization": f"Bearer {OPENROUTER_API_KEY}",
-    "HTTP-Referer": "http://localhost:8501",
+    "HTTP-Referer": "https://chatbot-baru.streamlit.app/",
     "X-Title": "AI Chatbot Streamlit",
     "Content-Type": "application/json"
 }
